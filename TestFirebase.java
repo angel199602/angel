@@ -10,6 +10,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
+
 /**
  * Logs you into firebase and downloads all the .txt and .log files for a given crashlytics issue.
  */
