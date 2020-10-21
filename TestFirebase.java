@@ -28,14 +28,14 @@ public class TestFirebase {
 		driver.get(url);
 		System.out.println("page is open");
 	
-		driver.findElement(By.xpath("//input[@id='identifierId']")).sendKeys("9angel_jose@singaporeair.com.sg");
+		driver.findElement(By.xpath("//input[@id='identifierId']")).sendKeys("mailid");
         driver.findElement(By.xpath("//div[@id='identifierNext']")).click();
 
 //send password
 WebElement passwordButton = driver.findElement(By.xpath("//input[@name='password']"));
 WebDriverWait wait = new WebDriverWait(driver, 30);
 wait.until(ExpectedConditions.elementToBeClickable(passwordButton));
-passwordButton.sendKeys("Sepsep@23");
+passwordButton.sendKeys("password");
 driver.findElement(By.xpath("//div[@id='passwordNext']")).click();
 
        // WebDriverWait wait=new WebDriverWait(driver, 20);               
