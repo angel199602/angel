@@ -28,7 +28,7 @@ public class TestFirebase {
 		driver.get(url);
 		System.out.println("page is open");
 	
-		driver.findElement(By.xpath("//input[@id='identifierId']")).sendKeys("mailid");
+		driver.findElement(By.xpath("//input[@id='identifierId']")).sendKeys("");
         driver.findElement(By.xpath("//div[@id='identifierNext']")).click();
 
 //send password
@@ -45,7 +45,7 @@ driver.findElement(By.xpath("//div[@id='passwordNext']")).click();
 
         //driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);        
 
-        //driver.findElement(By.xpath("(//input[contains(@class,'whsOnd zHQkBf')])[1]")).sendKeys("Sepsep@23");             
+        //driver.findElement(By.xpath("(//input[contains(@class,'whsOnd zHQkBf')])[1]")).sendKeys("");             
 
        // driver.findElement(By.xpath("(//div[@class='VfPpkd-RLmnJb'])[1]")).click(); 
         
